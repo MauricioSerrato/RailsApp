@@ -1,0 +1,19 @@
+
+
+
+<%if user_signed_in?%>
+  <div class='homecontainer'>
+    <% @posts.each do |post| %>
+  
+  
+      <%= render post %>
+      <%# link_to "Show this post", post %>
+    <% end %>
+  </div>
+<%else%>
+sign in dog
+<%# how do i render the session/new.html page? %>
+
+<%end%>   
+
+<%# < link_to "New post", new_post_path > %>

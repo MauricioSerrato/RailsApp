@@ -1,0 +1,146 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ .aboutcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://42796r1ctbz645bo223zkcdl-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/sean-pollock-PhYq704ffdA-unsplash-2-1281x612.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+
+ .about{
+    width: 50vw;
+    color:white;
+    background: rgba(0, 0, 0, 0.4);
+ }
+
+ .homecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://42796r1ctbz645bo223zkcdl-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/sean-pollock-PhYq704ffdA-unsplash-2-1281x612.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    overflow-y: scroll;
+ }
+
+
+ .table{
+   
+    width: 90vw ;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+  
+ }
+
+ .tablerow{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+ }
+
+ #first{
+    font-weight: 600;
+    color: white;
+ }
+
+ #last{
+    font-weight: 600;
+    color: white;
+ }
+
+ #phone{
+    font-weight: 600;
+    color: white;
+ }
+
+ #location{
+    font-weight: 600;
+    color: white;
+ }
+
+ #date{
+    font-weight: 600;
+    color: white;
+ }
+
+ #info{
+    font-weight: 600;
+    color: white;
+ }
+ tbody{
+    color: white;
+ }
+
+ .newpost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://42796r1ctbz645bo223zkcdl-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/sean-pollock-PhYq704ffdA-unsplash-2-1281x612.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    overflow-y: scroll;
+ }
+
+
+ .form{
+    display: flex;
+    color:white;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4);
+    width:500px;
+ }
+
+
+ .create{
+    margin-top: 1em;
+    background-color: rgb(40, 40, 210);
+    width: 150px;
+ }
+
+ .loginpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://42796r1ctbz645bo223zkcdl-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/sean-pollock-PhYq704ffdA-unsplash-2-1281x612.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    overflow-y: scroll;
+ }
+
+ .alert{
+    /* display: none; */
+ }

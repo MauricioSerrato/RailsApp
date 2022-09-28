@@ -1,0 +1,24 @@
+<p style="color: green"><%= notice %></p>
+
+<div class="jumbotron">
+  <h1 class="display-4"> 
+  <%= @post.first_name%> 
+  <%=@post.last_name%> </h1>
+  <%# @post is allowign me for some reason to pull certain data from the posts backend  %>
+  <p class="lead">
+  Phone Number: <%= @post.phone%> <br/>
+  Location: <%= @post.location%> <br/>
+  Date: <%= @post.date%>
+  </p>
+  <hr class="my-4">
+  
+  <p class="lead">
+     <%= link_to "Edit this post", edit_post_path(@post), class: "btn btn-secondary" %>
+  <%= link_to "Back to posts", posts_path, class: "btn btn-secondary" %>
+  <br/>
+  <%= button_to "Destroy this post", @post, method: :delete, 
+  class: "btn btn-danger"%>
+  </p>
+</div>
+
+
